@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Jether Cruz, IS117-005, Fall 2024 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & FAQ</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/navbar-center.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Header Section -->
+    <header class="d-flex justify-content-between align-items-center py-3">
+        <div>
+            <img src="images/jetflex.webp" alt="JetFlex Logo" class="logo">
+        </div>
+        <h1 class="company-name">J E T F L E X</h1>
+        <div>
+            <button class="btn btn-outline-secondary">
+                <i class="bi bi-cart"></i> Cart
+            </button>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <div class="row">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark col-12">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="workouts.html">Workout Plans</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarNutrition" role="button" data-bs-toggle="dropdown">Nutrition & Recovery</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="recovery.html">Recovery Tips & Advice</a></li>
+                            <li><a class="dropdown-item" href="supplements.html">Protein Powders & Supplements</a></li>
+                            <li><a class="dropdown-item" href="mealplans.html">Generate A Meal Plan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarMerchandise" role="button" data-bs-toggle="dropdown">Merchandise</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="menclothes.html">Men's Clothing</a></li>
+                        <li><a class="dropdown-item" href="womenclothes.html">Women's Clothing</a></li>
+                    </ul>
+                </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact & FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <div class="jumbotron text-center">
+            <h1>CONTACT US</h1>
+                <form name="newitem" action="index.php" method="post">
+                    <table cellpadding="1" border="0">
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" required></td> 
+                        </tr>
+
+                        <tr>
+                            <td>E-Mail:</td>
+                            <td><input type="text" required></td>
+                        </tr>
+
+                        <tr>
+                            <td>Subject:</td>
+                            <td><input type="text" required></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>Message:</td>
+                            <td><input type="text" required></td>
+                        </tr>
+                    </table><br>
+                     <input type="submit" class="submit-message"value="Submit">
+
+            <h1>FREQUENTLY ANSWERED QUESTIONS</h1>
+                <ol>
+                    <li>
+                        <strong>What is the secret to staying motivated?</strong> 
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                    </li>
+                    <li>
+                        <strong>How long does it take to see results? </strong>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                    </li>
+                    <li>
+                        <strong>How often should I rest?</strong>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                    </li>
+                    <li>
+                        <strong>Can I gain strength while losing body fat?</strong>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                    </li>
+                    <li>
+                        <strong>Can women and men train the same way?</strong>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                    </li>
+                </ol>
+        </div>  
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2024 JetFlex. All Rights Reserved. <a href="#" class="text-white">Terms of Use</a></p>
+    </footer>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"></script>
+</body>
+</html>

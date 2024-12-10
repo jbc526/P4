@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Jether Cruz, IS117-005, Fall 2024 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & FAQ</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/navbar-center.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Header Section -->
+    <header class="d-flex justify-content-between align-items-center py-3">
+        <div>
+            <img src="images/jetflex.webp" alt="JetFlex Logo" class="logo">
+        </div>
+        <h1 class="company-name">J E T F L E X</h1>
+        <div>
+            <button class="btn btn-outline-secondary">
+                <i class="bi bi-cart"></i> Cart
+            </button>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <div class="row">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark col-12">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="workouts.html">Workout Plans</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarNutrition" role="button" data-bs-toggle="dropdown">Nutrition & Recovery</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="recovery.html">Recovery Tips & Advice</a></li>
+                            <li><a class="dropdown-item" href="supplements.html">Protein Powders & Supplements</a></li>
+                            <li><a class="dropdown-item" href="mealplans.html">Generate A Meal Plan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarMerchandise" role="button" data-bs-toggle="dropdown">Merchandise</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="menclothes.html">Men's Clothing</a></li>
+                        <li><a class="dropdown-item" href="womenclothes.html">Women's Clothing</a></li>
+                    </ul>
+                </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact & FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <div class="jumbotron text-center">
+            <h1>Generate Your Meal with Us!</h1>
+            <form name="newitem" action="index.php" method="post">
+                <table class="table table-borderless">
+                    <tr>
+                        <td>
+                            <label for="goal" class="form-label">Are you maintaining your weight, cut, or bulk?</label><br>
+                            <input type="text" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="preference" class="form-label">Do you prefer clean or dirty (Optional. Only answer if maintaining or bulking)?</label><br>
+                            <input type="text" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="weight" class="form-label">How many lbs do you weigh?</label><br>
+                            <input type="text" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="allergies" class="form-label">Any allergies (If yes, list them. If not, skip)?</label><br>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="meals" class="form-label">How many meals do you plan to eat a day?</label><br>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="foodPreferences" class="form-label">List any food you'd like to include in your plan.</label><br>
+                            <input type="text" required>
+                        </td>
+                    </tr>
+                </table>
+                <button type="submit" class="submit-message">Generate Meal</button>
+            </form>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2024 JetFlex. All Rights Reserved. <a href="#" class="text-white">Terms of Use</a></p>
+    </footer>
+</div>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"></script>
+</body>
+</html>

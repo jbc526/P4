@@ -1,0 +1,256 @@
+/*DEVELOPER: Jether Cruz, IS117-005, Semester Fall, Fall 2024 */
+
+/* General Styles */
+.logo{
+    max-height: 100px;
+}
+
+/*
+img{
+    filter: grayscale(100%);
+}
+*/
+
+/*Recovery Page*/
+.water-img {
+    width: 850px; 
+    height: 475px;
+    display: block; 
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.jumbotron p {
+    margin: 0;
+    line-height: 1.5; 
+    text-align: left;
+    text-indent: 20px;
+
+}
+
+.card-img-top{
+    height: 400px;
+    object-fit: cover;
+}
+.card{
+    margin-bottom: 10px; 
+}
+
+
+/*Normal*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url("../images/marble.jpeg");
+    color:black;
+}
+
+header {
+    border-bottom: 2px solid #ddd;
+    padding: 15px 20px;
+}
+
+header img {
+    max-height: 50px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.navbar {
+    color: black;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.navbar .dropdown-menu {
+    background-color: #343a40;
+}
+
+.navbar .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #495057;
+    color: red;
+}
+
+/*Carousel*/
+.carousel-inner{
+    margin-top:20px;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+@media (max-width: 767px) {
+    .carousel-caption {
+        font-size: 14px;
+    }
+}
+
+/* For large screens, keep a larger font size */
+@media (min-width: 768px) {
+    .carousel-caption {
+        font-size: 18px;
+    }
+}
+/* Jumbotron */
+.jumbotron {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.jumbotron h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.jumbotron table {
+    margin: 0 auto;
+}
+
+.jumbotron input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.jumbotron input[type="submit"] {
+    background-color: grey;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.jumbotron input[type="submit"]:hover {
+    background-color: darkgrey;
+}
+
+/*Protein Powder & Supplements Page*/
+h2{
+    color: white;
+    font-weight:bold;
+    margin-top: 20px;
+}
+
+a{
+    color:black; 
+}
+
+.btn-primary{
+    background-color:white; 
+    border-color: white;
+    color: black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-primary:hover{
+    background-color: grey;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    font-size: 0.9rem;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #f8d210;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.jumbotron ol {
+    list-style-position: inside; 
+    text-align: left; 
+    margin: 0 auto;
+    padding: 0;
+    max-width: 600px; 
+}
+
+.jumbotron ol li {
+    margin-bottom: 10px; 
+    font-size: 1rem; 
+}
+
+/* Contact Page */
+.submit-message{
+    margin-bottom: 25px;
+}
+
+/* Muscle Groups (WorkOut Plans) */
+section h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+section .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+section .btn:hover {
+    background-color: grey;
+    color: white;
+}
+
+article {
+    margin: 30px 30px 30px 30px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: lightgray
+}
+
+article h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+article p {
+    text-indent: 20px;
+    font-size: 1rem;
+    color: black;
+    line-height: 1.6;
+    margin-top: 30px;
+    text-align: left;
+}
+
+
+/*Button for Cards*/
+.btn-primaryIndex{
+    background-color:black; 
+    border-color: black;
+    color: white;
+}
+
+

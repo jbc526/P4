@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Jether Cruz, IS117-005, Fall 2024 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/navbar-center.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Header Section -->
+    <header class="d-flex justify-content-between align-items-center py-3">
+        <div>
+            <img src="images/jetflex.webp" alt="JetFlex Logo" class="logo">
+        </div>
+        <h1 class="company-name">J E T F L E X</h1>
+        <div>
+            <button class="btn btn-outline-secondary">
+                <i class="bi bi-cart"></i> Cart
+            </button>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <div class="row">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark col-12">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="workouts.html">Workout Plans</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarNutrition" role="button" data-bs-toggle="dropdown">Nutrition & Recovery</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="recovery.html">Recovery Tips & Advice</a></li>
+                            <li><a class="dropdown-item" href="supplements.html">Protein & Supplements</a></li>
+                            <li><a class="dropdown-item" href="mealplans.html">Generate a Meal Plan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarMerchandise" role="button" data-bs-toggle="dropdown">Merchandise</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="menclothes.html">Men's Clothing</a></li>
+                        <li><a class="dropdown-item" href="womenclothes.html">Women's Clothing</a></li>
+                    </ul>
+                </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact & FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Main Content -->
+    <div class="container mt-4">
+    <!-- Carousel Section -->
+    <div id="jetflexCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <!-- First Slide -->
+        <div class="carousel-item active">
+        <img src="images/carousel1.jpg" class="d-block w-100" alt="Workout" style="height: 400px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Strength Training</h5>
+          <p>Build muscle and increase strength with our tailored workouts.</p>
+        </div>
+      </div>
+      <!-- Second Slide -->
+      <div class="carousel-item">
+        <img src="images/carousel2.png" class="d-block w-100" alt="Nutrition" style="height: 400px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nutrition & Recovery</h5>
+          <p>Optimize your performance with healthy meals and recovery tips.</p>
+        </div>
+      </div>
+      <!-- Third Slide -->
+      <div class="carousel-item">
+        <img src="images/carousel3.avif" class="d-block w-100" alt="Merchandise" style="height: 400px; object-fit: cover;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Merchandise</h5>
+          <p>Shop our latest collection of fitness apparel and accessories.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#jetflexCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#jetflexCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <div class="jumbotron text-center">
+    <h1>ABOUT J E T F L E X</h1>
+    <p>Your ultimate guide to fitness, nutrition, and recovery. Achieve your goals with us! 
+        Lorem ipsum odor amet, consectetuer adipiscing elit. Tincidunt primis nostra vulputate donec ad. 
+        Mauris velit lacus mus est maecenas. Adipiscing dictum fusce fames a, penatibus nunc metus. 
+        Id adipiscing placerat himenaeos erat montes pellentesque. Aenean lacus conubia convallis amet quis mi. 
+        Rhoncus venenatis ultricies, fermentum nunc at class. Imperdiet torquent senectus phasellus, ante imperdiet 
+        vestibulum vulputate. Dignissim class felis facilisi cras dolor vel rhoncus viverra ut. Montes inceptos 
+        vivamus purus habitasse pulvinar dignissim nec eleifend massa. Litora volutpat netus vehicula mauris pellentesque 
+        cursus ligula. Lectus platea mattis aliquam magna cras libero? Etiam nullam tempus vulputate suspendisse 
+        per consequat. Iaculis luctus ipsum lacus sit pharetra phasellus velit. Feugiat senectus taciti habitant aptent quis inceptos nec sed quis.
+        Habitant hac sit vestibulum at vivamus a. Ornare ac varius nec ridiculus risus convallis. Et libero tristique sed morbi nostra consectetur; risus sed tincidunt.</p>
+  </div>
+        <!-- Cards Section -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/popular.jpg" class="card-img-top" alt="Popular Protein Powders and Supplements ">
+                    <div class="card-body">
+                        <h5 class="card-title">TRENDING NOW</h5>
+                        <p class="card-text">Explore popular protein powders & supplements</p>
+                        <a href="supplements.html" class="btn btn-primaryIndex">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/personaltrainer.jpg" class="card-img-top" alt="A Personal Trainer">
+                    <div class="card-body">
+                        <h5 class="card-title">PERSONAL TRAINING</h5>
+                        <p class="card-text">Check out local personal trainers within your area!.</p>
+                        <a href="personaltrainers.html" class="btn btn-primaryIndex">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/youngla.jpeg" class="card-img-top" alt="Merchandise Advertisement">
+                    <div class="card-body">
+                        <h5 class="card-title">ONGOING SALE!</h5>
+                        <p class="card-text">Buy any clothing, and get the other for 20% off!</p>
+                        <a href="menclothes.html" class="btn btn-primaryIndex">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2024 JetFlex. All Rights Reserved. <a href="#" class="text-white">Terms of Use</a></p>
+    </footer>
+</div>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"></script>
+</body>
+</html>

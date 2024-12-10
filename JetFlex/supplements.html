@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Jether Cruz, IS117-005, Fall 2024 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/navbar-center.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Header Section -->
+    <header class="d-flex justify-content-between align-items-center py-3">
+        <div>
+            <img src="images/jetflex.webp" alt="JetFlex Logo" class="logo">
+        </div>
+        <h1 class="company-name">J E T F L E X</h1>
+        <div>
+            <button class="btn btn-outline-secondary">
+                <i class="bi bi-cart"></i> Cart
+            </button>
+        </div>
+    </header>
+    <!-- Navbar -->
+    <div class="row">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark col-12">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="workouts.html">Workout Plans</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarNutrition" role="button" data-bs-toggle="dropdown">Nutrition & Recovery</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="recovery.html">Recovery Tips & Advice</a></li>
+                            <li><a class="dropdown-item" href="supplements.html">Protein Powders & Supplements</a></li>
+                            <li><a class="dropdown-item" href="mealplans.html">Generate a Meal Plan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarMerchandise" role="button" data-bs-toggle="dropdown">Merchandise</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="menclothes.html">Men's Clothing</a></li>
+                        <li><a class="dropdown-item" href="womenclothes.html">Women's Clothing</a></li>
+                    </ul>
+                </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact & FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Main Content -->
+    <h2>PROTEIN POWDER & SUPPLEMENTS</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/whey.jpg" class="card-img-top" alt="Workout">
+                <div class="card-body">
+                <a href="#">Optimum Gold Standard 100% Whey Protein Powder, 2lb</a>
+                <h5 class="card-title">$44.99</h5>
+                <a href="#" class="btn btn-primaryIndex">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/creatine.webp" class="card-img-top" alt="Nutrition">
+                <div class="card-body">
+                    <a href="#">Chemistry Labs Creatine HCL (120 Servings)</a>
+                    <h5 class="card-title">$49.99</h5>
+                    <a href="#" class="btn btn-primaryIndex">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/bar.jpg" class="card-img-top" alt="Merchandise">
+                <div class="card-body">
+                    <a href="#">Protein Bar - Creamy Crisp (12 Bars)</a>
+                    <h5 class="card-title">$29.99</h5>
+                    <a href="#" class="btn btn-primaryIndex">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/isolate.jpg" class="card-img-top" alt="Merchandise">
+                <div class="card-body">
+                    <a href="#">Pure Isolate - Chocolate Frosting (70 Servings)</a>
+                    <h5 class="card-title">$99.99</h5>
+                    <a href="#" class="btn btn-primaryIndex">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/puffed.jpg" class="card-img-top" alt="Merchandise">
+                <div class="card-body">
+                    <a href="#">Loaded Protein-Jet Puffed Marshmallow (27 Servings)</a>
+                    <h5 class="card-title">$44.99</h5>
+                    <a href="#" class="btn btn-primaryIndex">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/monohydrate.webp" class="card-img-top" alt="Merchandise">
+                <div class="card-body">
+                    <a href="#">Creatine Monohydrate - 50 Servings</a>
+                    <h5 class="card-title">$24.99</h5>
+                    <a href="#" class="btn btn-primaryIndex">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/cocoa.webp" class="card-img-top" alt="Merchandise">
+                <div class="card-body">
+                    <a href="#">High Protein Hot Cocoa Mix (1.2lb) </a>
+                    <h5 class="card-title">$49.99</h5>
+                    <a href="#" class="btn btn-primaryIndex">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/megamen.jpg" class="card-img-top" alt="Merchandise">
+                <div class="card-body">
+                    <a href="#">Mega Men Ultra Testosterone Booster - 120 Capsules</a>
+                    <h5 class="card-title">$89.99</h5>
+                    <a href="#" class="btn btn-primaryIndex">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/vegan.jpg" class="card-img-top" alt="Merchandise">
+                <div class="card-body">
+                    <a href="#">Naked Vegan Protein Mass Gainer</a>
+                    <h5 class="card-title">$69.99</h5>
+                    <a href="#" class="btn btn-primaryIndex">ADD TO CART</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2024 JetFlex. All Rights Reserved. <a href="#" class="text-white">Terms of Use</a></p>
+    </footer>
+</div>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"></script>
+</body>
+</html>
